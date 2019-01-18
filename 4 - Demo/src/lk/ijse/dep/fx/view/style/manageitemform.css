@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2018, 11:30:56 PM
+    Author     : ranjith-suranga
+*/
+
+#imgHome:hover{
+    -fx-effect: dropshadow(gaussian,#6495ED,20,0.0,0,0);
+}
+
+#btnAddNewItem{
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+#btnSave{
+    -fx-background-color: #218838;
+    -fx-text-fill: white;
+}
+
+#btnDelete{
+    -fx-background-color: #ffc107;
+}
+
+.table-row-cell:selected{
+    -fx-background-color:linear-gradient(from 0% 0% to 100% 100%, white 0%, #007bff 50%, white 100%);
+}
+
+.table-row-cell:selected .table-cell{
+    -fx-text-fill: black !important;
+}
+

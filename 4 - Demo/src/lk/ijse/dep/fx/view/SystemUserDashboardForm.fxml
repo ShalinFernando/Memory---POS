@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView id="imgHome" fitHeight="53.0" fitWidth="55.0" layoutX="18.0" layoutY="17.0" onMouseClicked="#navigateToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/home-icon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="88.0" layoutY="28.0" text="System User Dashboard">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXPasswordField labelFloat="true" layoutX="25.0" layoutY="96.0" prefHeight="28.0" prefWidth="552.0" promptText="Old Password" />
+      <JFXPasswordField labelFloat="true" layoutX="25.0" layoutY="146.0" prefHeight="28.0" prefWidth="552.0" promptText="New Password" />
+      <JFXPasswordField labelFloat="true" layoutX="25.0" layoutY="198.0" prefHeight="28.0" prefWidth="552.0" promptText="Confirm New Password" />
+      <JFXButton layoutX="236.0" layoutY="246.0" style="-fx-background-color: orange; -fx-text-fill: white;" text="Change Password" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="343.0" layoutX="18.0" layoutY="289.0" stroke="#edeff2" strokeType="INSIDE" style="-fx-fill: -fx-background-color;" width="563.0" />
+   </children>
+</AnchorPane>
